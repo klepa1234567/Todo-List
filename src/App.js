@@ -65,8 +65,6 @@ function App() {
     }
 
     function buttonXOnClick(id) {
-
-
         return () => {
          const index = toDoList.filter((el)=>{
            if (el.id !== id) {
